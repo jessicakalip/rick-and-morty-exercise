@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
+import { StylingContainer } from './indexStyled';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <StylingContainer>
+      <App />
+    </StylingContainer>
   </React.StrictMode>,
   document.getElementById('root')
 );
